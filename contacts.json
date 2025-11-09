@@ -19,5 +19,19 @@
     "email": "carlos.m@example.com",
     "favoriteColor": "Green",
     "birthday": "1995-03-12"
-  }
+  },
+  {
+  "firstName": "Lerato",
+  "lastName": "Mokoena",
+  "email": "lerato.mokoena@example.com",
+  "favoriteColor": "Yellow",
+  "birthday": "1994-05-15"
+},
+{
+  "firstName": "Nxumalo",
+  "lastName": "Madiba",
+  "email": "nxumalo.madiba@example.com",
+  "favoriteColor": "Purple",
+  "birthday": "1999-08-15"
+}
 ]
