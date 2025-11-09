@@ -8,3 +8,36 @@ Accept: application/json
 #note
 GET http://localhost:3000/contacts/690dd77faf02d3a24d331c79
 Accept: application/json
+
+### Create a new contact
+POST http://localhost:3000/contacts
+Content-Type: application/json
+
+{
+"firstName": "Tadi",
+  "lastName": "Smith",
+  "email": "tadi.smith@example.com",
+  "favoriteColor": "Blue",
+  "birthday": "2000-05-18"
+}
+
+### PUT contact
+PUT http://localhost:3000/contacts/690dd77faf02d3a24d331c79
+Content-Type: application/json
+
+{
+  "firstName": "Tadiwa",
+  "lastName": "Johnson",
+  "email": "johnson.tadiwa@example.com",
+  "favoriteColor": "Green",
+    "birthday": "1999-12-25"
+}
+
+### DELETE contact
+DELETE http://localhost:3000/contacts/690dd77faf02d3a24d331c79  
+Accept: application/json
+
+{"message": "Contact deleted successfully"
+}
+    
+
